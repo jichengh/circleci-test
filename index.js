@@ -6,7 +6,7 @@ app.get('/', function(req, res){
 	res.send('Hello world')
 })
 
-var server = app.listen(8800, function(){
+var server = app.listen(5566, function(){
 	var port = server.address().port
 	console.log( 'server is listening at port: ' + port )
 })
